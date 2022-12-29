@@ -1,0 +1,307 @@
+{% extends "layout.html" %}
+{% block content %}
+	<section class="home d-print-none sheet padding-10mm" id="home"></section>
+
+	<!--ABOUT-->
+	<section class="about line-bg pt-6" id="about">
+		<div class="container">
+			<div
+				class="row">
+				<!-- Profile Image -->
+				<div class="col-md-4 profile d-print-flex">
+					<img src="{{ base_path() }}/assets/img/eru22b.png" class="img-fluid" alt="">
+				</div>
+				<!-- About Information -->
+				<div class="col-md-8 about-info">
+					<div class="left-title">
+						<h1>Sobre mí</h1>
+						<h2></h2>
+					</div>
+					<p class="text-justify">
+						Computer systems engineer, responsible, creative, with initiative, I assume responsibly the challenges and goals that the organization sets me, adaptability to change, facility to work in a team, under high pressure conditions, as well as to solve problems efficiently and achieve the productivity goals set by the company and my work group.
+					</p>
+					<ul class="col-md-12 giggs-list">
+						<li>
+							<span>Blog:
+							</span>
+							<span>
+								<a href="{{web}}" target="_blank">{{web}}</a>
+							</span>
+						</li>
+						<li>
+							<span>email:
+							</span>
+							<span>
+								<a href="mailto:{{mail}}">{{ mail }}</a>
+							</span>
+						</li>
+						<!--<li><span>Dirección : </span><span>Lázaro Cárdenas No. 102, San Pedro Tultepec, Lerma, Edo de México</span></li>-->
+					</ul>
+					<!--<a href="javascript:document.body.contentEditable='true';document.designMode='on';void 0" class="giggs_button top_15">Descargar CV</a>-->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--FEATURES & SKILLS-->
+	<section class="my_features line-bg" id="skills">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="left-title clearfix">
+						<h1>Skills</h1>
+					</div>
+				</div>
+				<div class="feature col-md-6 col-sm-6 col-xs-12">
+					<div>
+						<div class="feat-icon">
+							<i class="fal fa-laptop-code fa-2x"></i>
+						</div>
+						<div class="feat-text">
+							<span class="text-uppercase">Web development</span>
+							<p class="text-justify">
+								Microsite Development, Registration Systems, Web Applications or any web solution that suits your needs. Employing the latest technologies with HTML, CSS, PHP Frameworks, and Javascript
+							</p>
+							<p class="text-justify mt-2">
+								Improvement of the user experience and the loading speed of a website through optimization techniques.
+							</p>
+							<p class="text-justify mt-2">
+								Management and maintenance of databases and content management systems.
+							</p>
+							<p class="text-justify mt-2">
+								Regular website maintenance and updating to keep it secure and up-to-date.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="feature col-md-6 col-sm-6 col-xs-12">
+					<div>
+						<div class="feat-icon">
+							<i class="fab fa-linux fa-2x"></i>
+						</div>
+						<div class="feat-text">
+							<span>Linux systems</span>
+							<p class="text-justify mt-2">
+								Experience in the installation and configuration of Linux distributions.
+							</p>
+							<p class="text-justify mt-2">
+								Knowledge of the command line and ability to use it to perform common tasks such as navigating the file system, editing files, and running programs.
+							</p>
+							<p class="text-justify mt-2">
+								Experience in the administration and maintenance of Linux-based servers, including the configuration of services such as Apache, MySQL and PHP.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Skills -->
+			<div class="skills col-md-12 top_60 row">
+				<ul class="skill-list col-md-6 top30">
+					<li>
+						<h3>Web development</h3>
+						<div class="progress">
+							<div class="percentage" style="width:90%;"></div>
+						</div>
+					</li>
+					<li>
+						<h3>Web design</h3>
+						<div class="progress">
+							<div class="percentage" style="width:50%;"></div>
+						</div>
+					</li>
+					<li>
+						<h3>PHP Framework Symfony</h3>
+						<div class="progress">
+							<div class="percentage" style="width:90%;"></div>
+						</div>
+					</li>
+					<li>
+						<h3>PHP Framework Slim</h3>
+						<div class="progress">
+							<div class="percentage" style="width:90%;"></div>
+						</div>
+					</li>
+					<li>
+						<h3>Angular</h3>
+						<div class="progress">
+							<div class="percentage" style="width:50%;"></div>
+						</div>
+					</li>
+				</ul>
+				<ul class="skill-list col-md-6 top30">
+					<li>
+						<h3>React</h3>
+						<div class="progress">
+							<div class="percentage" style="width:30%;"></div>
+						</div>
+					</li>
+					<li>
+						<h3>VUE</h3>
+						<div class="progress">
+							<div class="percentage" style="width:50%;"></div>
+						</div>
+					</li>
+					<li>
+						<h3>Flutter</h3>
+						<div class="progress">
+							<div class="percentage" style="width:60%;"></div>
+						</div>
+					</li>
+					<li>
+						<h3>Database Administration</h3>
+						<div class="progress">
+							<div class="percentage" style="width:80%;"></div>
+						</div>
+					</li>
+					<li>
+						<h3>Server Management</h3>
+						<div class="progress">
+							<div class="percentage" style="width:90%;"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- RESUME -->
+	<section class="resume dotted-bg" id="resume">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="left-title clearfix">
+						<h1>Education & Experience</h1>
+					</div>
+				</div>
+				<!-- resume content -->
+				<div
+					class="col-md-12 top_45 row">
+					<!-- education -->
+					<div class="resume-timeline col-md-4">
+						<div class="rounded-icon">
+							<i class="fa fa-graduation-cap"></i>
+							<span class="text-uppercase">Educación</span>
+						</div>
+						<div class="resume-out">
+							<div class="resume-info">
+								<h2 class="info-title">CBTIS No. 203</h2>
+								<span class="info-date">1995 - 1998</span>
+								<p>Electronic Technician</p>
+							</div>
+							<div class="resume-info">
+								<h2 class="info-title">ISEU</h2>
+								<span class="info-date">2000 - 2006</span>
+								<p>Computer Systems Engineering</p>
+							</div>
+							<div class="resume-info">
+								<h2 class="info-title">ISEU</h2>
+								<span class="info-date">2009 - 2011</span>
+								<p>Master in Computer Systems</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- experience -->
+					<div class="resume-timeline col-md-8">
+						<div class="rounded-icon">
+							<i class="fa fa-suitcase"></i>
+							<span>Experiencia</span>
+						</div>
+						<div class="resume-out">
+							<div class="resume-info">
+								<h2 class="info-title">Web Master - Grupo HT</h2>
+								<span class="info-date">2021 - a la fecha</span>
+								<p class"text-justify">
+									<ul>
+										<li>Desarrollo Web</li>
+										<li>Desarrollo Apps móviles</li>
+										<li>Administración y migración Cloud</li>
+										<li>Administración de servidores</li>
+									</p>
+								</p>
+							</div>
+							<div class="resume-info">
+								<h2 class="info-title">Desarrollador Web - T&C Group</h2>
+								<span class="info-date">2015 - 2021</span>
+								<p class"text-justify">
+									<ul>
+										<li>Desarrollo de Micrositios y registro para eventos</li>
+										<li>Desarrollo de Micrositios para Michelin, Navistar e International</li>
+										<li>Desarrollo de Webapps personalizadas para eventos</li>
+										<li>Desarrollo de sistemas de Reservaciones de Hoteles para los eventos</li>
+										<li>Desarrollo de Webapps para el Corporativo y UENS de T&C Group</li>
+										<li>Administración y mantenimiento del servidor dedicado</li>
+									</ul>
+								</p>
+							</div>
+							<div class="resume-info">
+								<h2 class="info-title">Desarrollador Web - Dirección de Educación Continua y a Distancia de la UAEMéx</h2>
+								<span class="info-date">2008 - 2015</span>
+								<p class"text-justify">
+									<ul>
+										<li>Desarrollo de la nueva versión de la plataforma educativa SEDUCA</li>
+										<li>Apoyo para el desarrollo de sistema de Flujo de trabajo</li>
+										<li>Desarrollo de sistemas para la DNMS</li>
+										<li>Administrador de la Base de datos de la plataforma educativa SEDUCA</li>
+										<li>Soporte y mantenimiento del servidor de la plataforma educativa SEDUCA</li>
+										<li>Desarrollo de la plataforma educativa SEDUCA</li>
+									</ul>
+								</p>
+							</div>
+							<div class="resume-info">
+								<h2 class="info-title">Prácticas profesionales - Dirección de Educación Continua y a Distancia de la UAEMéx</h2>
+								<span class="info-date">2007 - 2008</span>
+								<p class"text-justify">
+									<ul>
+										<li>Desarrollo de materiales educativos</li>
+										<li>Desarrollo de sistemas para control escolar</li>
+									</ul>
+								</p>
+							</div>
+							<div class="resume-info">
+								<h2 class="info-title">ISEU</h2>
+								<span class="info-date">2005 - 2006</span>
+								<p class"text-justify">
+									<ul>
+										<li>
+											Impartición de clases: programación C y C++, Sistemas Operativos, Bases de Datos, diseño de páginas Web, Ambientes Unix y Software Libre
+										</li>
+									</ul>
+								</p>
+							</div>
+							<div class="resume-info">
+								<h2 class="info-title">Dirección  de Preparatoria Abierta</h2>
+								<span class="info-date">2005 - 2006</span>
+								<p class"text-justify">
+									<ul>
+										<li>
+											Mantenimiento al equipo de cómputo
+										</li>
+										<li>
+											Desarrollo del sistema para la automatización de calificaciones
+										</li>
+									</ul>
+								</p>
+							</div>
+							<div class="resume-info">
+								<h2 class="info-title">Computadoras ARGIZ</h2>
+								<span class="info-date">2000 - 2001</span>
+								<p class"text-justify">
+									<ul>
+										<li>
+											Venta de equipo de cómputo
+										</li>
+										<li>
+											Mantenimiento al equipo de cómputo
+										</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

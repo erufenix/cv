@@ -59,4 +59,16 @@ final class Home
       'mail' => 'erufenix@gmail.com',
     ]);
   }
+
+  public function enCV(Request $request, Response $response): Response
+  {
+    $view = Twig::fromRequest($request);
+
+    return $view->render($response, 'cv_en.html', [
+      'name' => 'Edgar Rubi Urbina',
+      'ocp' => 'Web Developer',
+      'web' => 'https://erufenix.dev',
+      'mail' => 'erufenix@gmail.com',
+    ]);
+  }
 }
