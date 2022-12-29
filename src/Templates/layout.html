@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+	<html>
+		<head>
+		<meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Edgar Rubi Urbina | Desarrollador Web</title>
+		<meta name="description" content="Edgar Rubi Urbina (@erufenix) CV">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="{{ base_path() }}/assets/bootstrap-4/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="{{ base_path() }}/assets/css/reset.css"/>
+		<link rel="stylesheet" href="{{ base_path() }}/assets/css/perfect-scrollbar.css"/>
+		<link rel="stylesheet" href="{{ base_path() }}/assets/css/style.css"/>
+		<link rel="stylesheet" href="{{ base_path() }}/assets/css/colors/color-1.css" type="text/css">
+		<link rel="stylesheet" href="{{ base_path() }}/assets/css/cv.css" type="text/css">
+		<style></style>
+	</head>
+	<body class="A4">
+		<!--[if lt IE 7]>
+		      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		    <![endif]-->
+		<!-- Preloading -->
+			<div id="preloader"> <div class="spinner">
+				<div class="uil-ripple-css" style="transform:scale(0.29);">
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+
+		<header class="headerdark d-print-nones">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-9">
+						<div class="logo">
+							{{  name }} |
+							<span class="small-75">
+								{{ocp}}
+							</span>
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+		</header>
+
+		<main class="mb-30r">
+    {% block content %}
+    {% endblock %}
+		</main>
+
+		<script src="{{ base_path() }}/assets/js/jquery-2.1.4.min.js"></script>
+		<script src="{{ base_path() }}/assets/bootstrap-4/js/bootstrap.min.js"></script>
+		<script src="{{ base_path() }}/assets/js/isotope.pkgd.min.js"></script>
+		<script src="{{ base_path() }}/assets/js/jquery.mousewheel.js"></script>
+		<script src="{{ base_path() }}/assets/js/perfect-scrollbar.js"></script>
+		<script src="{{ base_path() }}/assets/js/wow.js"></script>
+		<script src="{{ base_path() }}/assets/js/pro.js"></script>
+		<script src="{{ base_path() }}/assets/js/cv.js"></script>
+	</body>
+</html>

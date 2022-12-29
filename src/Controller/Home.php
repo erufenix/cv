@@ -53,6 +53,10 @@ final class Home
     $view = Twig::fromRequest($request);
 
     return $view->render($response, 'cv.html', [
+      'name' => 'Edgar Rubi Urbina',
+      'ocp' => 'Desarrollador Web',
+      'web' => 'https://erufenix.dev',
+      'mail' => 'erufenix@gmail.com',
     ]);
   }
 }
