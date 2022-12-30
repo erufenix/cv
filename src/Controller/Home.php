@@ -57,6 +57,7 @@ final class Home
       'ocp' => 'Desarrollador Web',
       'web' => 'https://erufenix.dev',
       'mail' => 'erufenix@gmail.com',
+      'lang' => 'es'
     ]);
   }
 
@@ -69,6 +70,7 @@ final class Home
       'ocp' => 'Web Developer',
       'web' => 'https://erufenix.dev',
       'mail' => 'erufenix@gmail.com',
+      'lang' => 'en'
     ]);
   }
 }
