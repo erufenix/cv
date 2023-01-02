@@ -7,15 +7,15 @@
 <meta property="og:url" content="{{ lang == 'es' ? full_url_for('cv_es') : full_url_for('cv_en')  }}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Edgar Rubi Urbina | {{ ocp }}">
-<meta property="og:description" content="Edgar Rubi Urbina (@erufenix) CV">
-<meta property="og:image" content="">
+<meta property="og:description" content="{{ lang == 'es' ? 'Edgar Rubi Urbina (@erufenix) Desarrollador Web con experiencia en la creación y mantenimiento de sitios y aplicaciones web. Tengo una sólida comprensión de lenguajes de programación como HTML, CSS, JavaScript, PHP y Frameworks. Tengo habilidades de resolución de problemas y de comunicación efectiva. Me encanta aprender y estoy siempre buscando nuevas formas de mejorar mis habilidades y conocimientos en el campo del Desarrollo Web' : 'Edgar Rubi Urbina (@erufenix) Web Developer with experience in the creation and maintenance of web sites and applications. I have a solid understanding of programming languages such as HTML, CSS, JavaScript, PHP, and Frameworks. I have problem solving and effective communication skills. I love to learn and I am always looking for new ways to improve my skills and knowledge in the field of Web Development.' }}">
+<meta property="og:image" content="{{ lang == 'es' ? full_url_for('cv_es') ~ 'assets/img/erufenix_dev_op_600.png' : full_url_for('cv_es') ~ 'assets/img/erufenix_dev_op_600_en.png'  }}">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="erufenix.dev">
 <meta property="twitter:url" content="{{ lang == 'es' ? full_url_for('cv_es') : full_url_for('cv_en')  }}">
 <meta name="twitter:title" content="Edgar Rubi Urbina | {{ ocp }}">
-<meta name="twitter:description" content="Edgar Rubi Urbina (@erufenix) CV">
-<meta name="twitter:image" content="">
+<meta name="twitter:description" content="{{ lang == 'es' ? 'Edgar Rubi Urbina (@erufenix) Desarrollador Web con experiencia en la creación y mantenimiento de sitios y aplicaciones web. Tengo una sólida comprensión de lenguajes de programación como HTML, CSS, JavaScript, PHP y Frameworks. Tengo habilidades de resolución de problemas y de comunicación efectiva. Me encanta aprender y estoy siempre buscando nuevas formas de mejorar mis habilidades y conocimientos en el campo del Desarrollo Web' : 'Edgar Rubi Urbina (@erufenix) Web Developer with experience in the creation and maintenance of web sites and applications. I have a solid understanding of programming languages such as HTML, CSS, JavaScript, PHP, and Frameworks. I have problem solving and effective communication skills. I love to learn and I am always looking for new ways to improve my skills and knowledge in the field of Web Development.' }}">
+<meta name="twitter:image" content="{{ lang == 'es' ? full_url_for('cv_es') ~ 'assets/img/erufenix_dev_op_600.png' : full_url_for('cv_es') ~ 'assets/img/erufenix_dev_op_600_en.png'  }}">
 <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 {% endblock %}
