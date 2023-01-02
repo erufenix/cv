@@ -34,10 +34,10 @@
 				<div class="row">
 					<div class="col-md-9">
 						<div class="logo">
-							<img src="{{ base_path() }}/assets/img/erufenix_dev_300_fd.png">
+							<img src="{{ (lang == 'es') ?  base_path() ~ '/assets/img/erufenix_dev_300_fd.png' :  base_path() ~ '/assets/img/erufenix_dev_300_fd_en.png' }}">
 						</div>
 					</div>
-					<div class="col-md-3">{{ name }}</div>
+					<div class="col-md-3 text-center nametext align-self-center">{{ name }}</div>
 				</div>
 			</div>
 		</header>
