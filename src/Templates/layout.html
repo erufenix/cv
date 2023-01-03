@@ -3,9 +3,10 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-	<html>
+	<html lang = "{{ lang == 'es' ? 'es' : 'en' }}">
 		<head>
 		<meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 		{% include "opengra.html" %}
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="{{ base_path() }}/assets/bootstrap-4/css/bootstrap.min.css"/>
@@ -37,7 +38,7 @@
 							<img src="{{ (lang == 'es') ?  base_path() ~ '/assets/img/erufenix_dev_300_fd.png' :  base_path() ~ '/assets/img/erufenix_dev_300_fd_en.png' }}" alt="logo">
 						</div>
 					</div>
-					<div class="col-md-3 text-center nametext align-self-center"><h1>{{ name }}</h1></div>
+					<div class="col-md-3 text-center nametext align-self-center"><h1>{{ name }} | {{ ocp }}</h1></div>
 				</div>
 			</div>
 		</header>
