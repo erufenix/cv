@@ -1,19 +1,19 @@
 $(window).on("load", function() {
-  
+
     $('#preloader').delay(350).fadeOut('slow');
 
     if ($('.wow').length) {
       new WOW({ mobile: false }).init();
-    }     
+    }
 
   }
 );
 
-$(document).on("ready", function() {	
+$(document).on("ready", function() {
 
-  console.log($('.container').width(),$('.container').outerWidth() );    
 
-  // ONE PAGE SCROLL 
+
+  // ONE PAGE SCROLL
     if ($('.home').length) {
         $(document).on("scroll", onScroll);
         //smoothscroll
@@ -53,8 +53,8 @@ $(document).on("ready", function() {
             });
         }
     }
-    
-        
+
+
     //NAVBAR SHOW - HIDE
     if ($('.home').length) {
         $(window).scroll(function () {
@@ -68,8 +68,8 @@ $(document).on("ready", function() {
             }
         });
     }
-    
-    
+
+
     // HOME PAGE HEIGHT
     if ($('.home').length) {
         function centerInit() {
@@ -90,7 +90,7 @@ $(document).on("ready", function() {
               , wheelSpeed: 100
           });
       });
-    }    
+    }
 
   }
 );

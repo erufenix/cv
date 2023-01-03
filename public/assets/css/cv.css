@@ -70,3 +70,15 @@ p,.giggs-list  {
    color: #fff;
    font-weight: bold;
  }
+
+
+.left-title span {
+   text-align: left;
+   font-size: 18px;
+   font-weight: 600;
+   margin: 20px 0 10px 0;
+}
+
+.left-title span{
+   font-size: 1.3rem;
+ }

@@ -1,7 +1,7 @@
 {% block opengp %}
 <!-- HTML Meta Tags -->
 <title>Edgar Rubi Urbina | {{ ocp }}</title>
-<meta name="description" content="Edgar Rubi Urbina (@erufenix) CV">
+<meta name="description" content="{{ lang == 'es' ? 'Edgar Rubi Urbina (@erufenix) Desarrollador Web con experiencia en la creación y mantenimiento de sitios y aplicaciones web. Tengo una sólida comprensión de lenguajes de programación como HTML, CSS, JavaScript, PHP y Frameworks. Tengo habilidades de resolución de problemas y de comunicación efectiva. Me encanta aprender y estoy siempre buscando nuevas formas de mejorar mis habilidades y conocimientos en el campo del Desarrollo Web' : 'Edgar Rubi Urbina (@erufenix) Web Developer with experience in the creation and maintenance of web sites and applications. I have a solid understanding of programming languages such as HTML, CSS, JavaScript, PHP, and Frameworks. I have problem solving and effective communication skills. I love to learn and I am always looking for new ways to improve my skills and knowledge in the field of Web Development.' }}">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="{{ lang == 'es' ? full_url_for('cv_es') : full_url_for('cv_en')  }}">
