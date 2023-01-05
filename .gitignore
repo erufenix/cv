@@ -9,3 +9,5 @@
 /.env
 /.scannerwork/
 /.phpunit.result.cache
+/public/node_modules/
+
