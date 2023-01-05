@@ -14,3 +14,16 @@ const cssBundle = () =>
   .pipe(dest('assets/css'));
 
   exports.cssBundle = cssBundle;
+
+  const jsBundle = () =>
+  src([
+    'assets/js/jquery.min.js',
+    'assets/bootstrap-4/js/bootstrap.min.js',
+    'assets/js/perfect-scrollbar.js',
+    'assets/js/pro.js',
+    'assets/js/cv.js'
+  ])
+  .pipe(concat('scriptcv.js'))
+  .pipe(dest('assets/js'));
+
+  exports.jsBundle = jsBundle;
